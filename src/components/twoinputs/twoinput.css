@@ -1,0 +1,26 @@
+  
+  .animate {
+    display: flex;
+  }
+  
+  .title {
+    position: relative;
+    padding: 10px 70px;
+    background-color: black;
+    color: #f5f5f5;
+    font-size: 20px;
+    clip-path: polygon(0% 0%, 100% 0, 93% 100%, 75% 100%, 0% 100%);
+    border-radius: 8px;
+  }
+  
+  .icon {
+    position: relative;
+    padding: 10px 20px;
+    background-color: black;
+    color: #f5f5f5;
+    font-size: 20px;
+    clip-path: polygon(24% 1%, 100% 0, 99% 100%, 55% 100%, 0 99%);
+    border-radius: 8px;
+    margin-left: -10px;
+  }
+  

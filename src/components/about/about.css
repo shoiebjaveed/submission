@@ -1,0 +1,39 @@
+.about-section {
+    width: 100%;
+    height: 500px; /* Adjust the height as per your preference */
+    /* background-image: url("https://res.cloudinary.com/ddbik48s6/image/upload/v1666428452/cld-sample-2.jpg");
+    background-size: cover;
+    background-position: center; */
+    color: black;
+    /* padding-top: 10px; Add padding to accommodate the fixed navbar */
+  }
+  
+  .about-text {
+    width: 50%;
+    margin-left: 4%;
+    line-height: 1;
+    font-size: 55px;
+    color: black;
+  }
+
+  .description-text {
+    width: 50%;
+    margin-left: 4%;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+@media screen and (max-width: 768px) {
+    .about-section {
+      height: auto;
+      padding-top: 10%; /* Adjust the percentage as per your preference */
+    }
+  
+    .about-text {
+      width: 80%;
+      margin-left: 5%;
+      font-size: 34px;
+    }
+  }

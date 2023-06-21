@@ -1,0 +1,99 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+
+  }
+  
+  .banner-content {
+    position: absolute;
+    /* left: 50%; */
+    min-width: 30%;
+    min-height: 120px;
+    transform: translateX(-50%);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    background-color: black;
+    box-shadow: 80px -1px 68px -1px rgba(0,0,0,0.44);
+    z-index: 99;
+  }
+  
+  .banner-content h2 {
+    font-size: 15px;
+    margin-left: 35%;
+    margin-top: 12%;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  /* .moving-icons {
+    width: 100%;
+    height: 30%;
+    margin-left: 15%;
+    color: white;
+    background-color: black;
+  } */
+  
+  .moving-icons {
+     width: 100%;
+    height: 30%;
+    /* margin-left: 15%; */
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 60px 0;
+    background: black;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide .icon-wrapper {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+  .icon-wrapper {
+    margin: 50px;
+    display: flex absolute;
+    align-items: center;
+  }
+
+  
+
+  
+  
+
+  

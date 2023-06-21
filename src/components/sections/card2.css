@@ -1,0 +1,125 @@
+.card {
+    display: flex;
+    background-color: #f5f4f2;
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 90%;
+    height: 520px;
+    margin: 50px;
+  }
+  
+  .card2-card-carousel {
+    width: 40%;
+    position: relative;
+    top: 15%;
+    left: 15%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .card2-card-carousel img {
+    width: 60%;
+    height: auto;
+  }
+  
+  .card2-carousel-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 32%;
+    top: 60%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card2-carousel-buttons button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background-color: #bbb;
+    margin: 0 4px;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .card2-carousel-buttons button.active {
+    background-color: #333;
+  }
+  
+  .card2-content-text {
+    width: 50%;
+
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  
+  .card2-content-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card2-content-text p {
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      position: relative;
+      flex-direction: column;
+      height: 800px;
+      left: -30px;
+    }
+  
+    .card2-card-carousel {
+      width: 100%;
+      top: initial;
+      left: initial;
+      border-radius: 0;
+      margin-top: 20px; /* Added margin for spacing */
+    }
+  
+    .card2-card-carousel img {
+      width: 100%;
+    }
+  
+    .card1-carousel-buttons {
+    position: static;
+    transform: none;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+  
+    .card2-carousel-buttons button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: none;
+      background-color: #bbb;
+      margin: 0 4px;
+      padding: 0;
+      cursor: pointer;
+    }
+  
+    .card2-carousel-buttons button.active {
+      background-color: #333;
+    }
+  
+    .card2-content-text {
+      width: 100%;
+      padding-left: 3%;
+      margin-top: 0;
+    }
+  
+    .card2-content-text h2 {
+      font-size: 30px;
+    }
+  
+    .card2-content-text p {
+      font-size: 16px;
+    }
+  }
+  

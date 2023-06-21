@@ -1,0 +1,168 @@
+.shapes {
+    width: 100%;
+  }
+  
+  .shapes-text {
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 1%;
+  }
+  
+  .shapes-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .shapes-text p {
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #F5F4F2;
+  }
+  
+  .main-content h1 {
+    font-size: 60px;
+    margin-left: 10%;
+  }
+  
+  .main-content i {
+    font-size: 60px;
+    margin-left: 20%;
+  }
+  
+  .main-content p {
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -10%;
+  }
+  
+  .one-line {
+    display: flex;
+  }
+  
+  .second-content {
+    width: 50%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #F5F4F2;
+  }
+  
+  .second-content h1 {
+    font-size: 60px;
+    margin-left: 10%;
+  }
+  
+  .second-content i {
+    font-size: 60px;
+    margin-left: 20%;
+  }
+  
+  .second-content p {
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -25%;
+  }
+  
+  .third-content {
+    width: 50%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #F5F4F2;
+  }
+  
+  .third-content h1 {
+    font-size: 60px;
+    margin-left: 10%;
+  }
+  
+  .third-content i {
+    font-size: 60px;
+    margin-left: 20%;
+  }
+  
+  .third-content p {
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -25%;
+  }
+  
+  @media (max-width: 768px) {
+    .shapes-text {
+      width: 100%;
+      padding-left: 10px;
+    }
+
+    .one-line {
+        flex-direction: column;
+    }
+    .main-content,
+    .second-content,
+    .third-content {
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    .main-content h1{
+        font-size: 20px;
+    }
+    .main-content i{
+        font-size: 20px;
+        margin-left: 2%;
+        margin-top: 18%;
+    }
+    .main-content p{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    .second-content h1{
+        font-size: 20px;
+    }
+    .second-content i{
+        font-size: 20px;
+        margin-left: 2%;
+        margin-top: 18%;
+    }
+    .second-content p{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 17%;
+        margin-top: 1%;
+    }
+    .third-content h1{
+        font-size: 20px;
+    }
+
+    .third-content i{
+        font-size: 20px;
+        margin-left: 2%;
+        margin-top: 18%;
+    }
+    .third-content p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 17%;
+        margin-top: -9%;
+    }
+
+  }
+  
